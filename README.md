@@ -18,8 +18,8 @@ La aplicación se encuentra contenerizada mediante Docker y Docker Compose. Post
 - **Docker Compose**: orquestación de los servicios del proyecto.
 
 ## Dependencias
-types/express 5.0.6
-types/node 26.6.5
-express 5.3.0
-tsx 4.23.15
-typescript 7.0.2
+* types/express 5.0.6
+* types/node 26.6.5
+* express 5.3.0
+* tsx 4.23.15
+* typescript 7.0.2
