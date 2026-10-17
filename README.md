@@ -8,7 +8,7 @@ El proyecto utiliza un backend desarrollado con Express y TypeScript, ejecutado 
 
 La aplicación se encuentra contenerizada mediante Docker y Docker Compose. PostgreSQL se utiliza como sistema gestor de base de datos relacional.
 
-### Tecnologías principales
+### 🖥️ Tecnologías principales
 
 - **Node.js**: entorno de ejecución para JavaScript.
 - **Express**: framework para el desarrollo de la API REST.
