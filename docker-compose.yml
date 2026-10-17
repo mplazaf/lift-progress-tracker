@@ -1,0 +1,24 @@
+name: liftprogress
+
+services:
+  api:
+    build: ./API_EJEMPLO
+    container_name: liftprogress-api
+    ports:
+      - "3000:3000"
+
+  db:
+    image: postgres:17
+    container_name: liftprogress-db
+    environment:
+      POSTGRES_USER: liftuser
+      POSTGRES_PASSWORD: liftpass
+      POSTGRES_DB: liftprogress
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres_data:
