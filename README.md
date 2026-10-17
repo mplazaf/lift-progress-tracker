@@ -1,1 +1,2 @@
-# lift-progress-tracker
+# Lift Progress Tracker
+
